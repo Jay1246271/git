@@ -1,0 +1,96 @@
+# ================= 操作系统 / 编辑器产生的文件 =================
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# 编辑器 / IDE 的配置目录（个人偏好，不适合共享）
+.idea/
+.vscode/
+*.code-workspace
+
+# Office 打开文件时生成的临时文件
+~$*
+
+# ================= 日志、缓存与临时文件 =================
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
+tmp/
+temp/
+*.pid
+
+# ================= 敏感信息，绝对不能提交 =================
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.keystore
+secrets.json
+credentials.json
+
+# ================= 依赖与构建产物 =================
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Java / Kotlin
+target/
+*.class
+*.jar
+
+# C / C++ / 嵌入式（Keil、IAR 等）
+*.o
+*.obj
+*.elf
+*.hex
+*.map
+*.lst
+*.axf
+*.uvguix.*
+Objects/
+Listings/
+DebugConfig/
+RTE/
+
+# MATLAB / Simulink
+*.asv
+*.autosave
+slprj/
+*.slxc
+
+# 压缩包与可执行文件等大体积产物
+*.zip
+*.7z
+*.rar
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ================= 其它 =================
+# 系统还原点、下载目录等与本项目无关的内容
+System Volume Information/
+pagefile.sys
